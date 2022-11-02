@@ -4,30 +4,35 @@ Nim : 312210046
 
 Kelas : TI.22.A1
 
-Latihan Python di Pycharm
-DAFTAR ISI
-No 	Description 	Link
-1 	Cara Installasi Pycharm 	Click Here
-2 	Latihan 1 	Click Here
-3 	Latihan 2 	Click Here
-4 	Latihan 3 	Click Here
-5 	Menghitung Luas Dan Keliling Lingkaran 	Click Here
-6 	Flowchart Menghitung luas dan keliling lingkaran 	Click Here
-Cara Installasi Pycharm
+# Latihan Python di Pycharm
+### DAFTAR ISI <br>
+| No | Description | Link |
+| ----- | ----- | ---- |
+| 1 | Cara Installasi Pycharm| [Click Here](#Cara-Installasi-Pycharm)|
+| 2 | Latihan 1 | [Click Here](#Latihan-1) |
+| 3 | Latihan 2 | [Click Here](#Latihan-2) |
+| 4 | Latihan 3 | [Click Here](#Latihan-3) |
+| 5 | Menghitung Luas Dan Keliling Lingkaran | [Click Here](#Menghitung-Luas-Dan-Keliling-Lingkaran) |
+| 6 | Flowchart Menghitung luas dan keliling lingkaran | [Click Here](#Flowchart-Menghitung-luas-dan-keliling-lingkaran) |
 
-    Anda harus install Pycharm di https://www.jetbrains.com/pycharm/download/#section=windows , Dan anda pilih yang Community Screenshot (76)
-    Anda next saja semua perintahnya
-    Jika sudah selesai maka program siap di gunakan
 
-Cara Menjalankan Pycharm
-Latihan 1
+# Cara Installasi Pycharm
+1. Anda harus install Pycharm di https://www.jetbrains.com/pycharm/download/#section=windows  , Dan anda pilih yang Community
+![Screenshot (76)](https://user-images.githubusercontent.com/115678171/198814989-ba36149f-cf88-492d-bb12-d00398751be4.png)
+2. Anda next saja semua perintahnya 
+3. Jika sudah selesai maka program siap di gunakan
+# Cara Menjalankan Pycharm 
+# Latihan 1
+1. Pertama-tama anda harus Klik New project lalu kasih nama project anda(sesuai yang anda mau), Dan anda harus pilih yang Previously Configurred interperter lalu klik yang add interperter dan pilih yang System interperter dan anda klik yang versi Python anda seperti gambar di bawah ini
+![Screenshot (78)](https://user-images.githubusercontent.com/115678171/198815436-8756894e-4eb0-4b58-81fe-165afda78652.png)
+![Screenshot (77)](https://user-images.githubusercontent.com/115678171/198815442-dbfb3a6e-1d2f-4fdf-b205-1f7ddfb8b16c.png)
 
-    Pertama-tama anda harus Klik New project lalu kasih nama project anda(sesuai yang anda mau), Dan anda harus pilih yang Previously Configurred interperter lalu klik yang add interperter dan pilih yang System interperter dan anda klik yang versi Python anda seperti gambar di bawah ini Screenshot (78) Screenshot (77)
+2. Selanjutnya anda membuat file Python baru di project anda tadi dan anda kasih nama file sesuai yang anda inginkan
+![Screenshot (79)](https://user-images.githubusercontent.com/115678171/198815862-fbfc7ae9-dc11-4184-898a-4711596e2e7a.png)
+![Screenshot (80)](https://user-images.githubusercontent.com/115678171/198815863-332a5b4f-c020-40b9-8331-4f98f5794ff9.png)
 
-    Selanjutnya anda membuat file Python baru di project anda tadi dan anda kasih nama file sesuai yang anda inginkan Screenshot (79) Screenshot (80)
-
-    anda masukan code dari latihan1 anda lalu Run
-
+3. anda masukan code dari latihan1 anda lalu Run
+```python
 # penggunaan end
 print('A', end='')
 print('B', end='')
@@ -69,15 +74,19 @@ print('{0:>3} {1:>16}'.format(6, 10**6))
 print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
-print('{0:>3} {1:>16}'.format(10, 10**10)
+print('{0:>3} {1:>16}'.format(10, 10**10)
+```
+ 
+ ![Screenshot (63)](https://user-images.githubusercontent.com/115678171/198816032-fc8004ba-67c8-4506-954d-d7e77deac44d.png)
+ ![Screenshot (64)](https://user-images.githubusercontent.com/115678171/198816037-2a855d15-28af-491f-91cd-fa16e1744518.png)
+ 
+ *Hasil run*
+ ![Screenshot (61)](https://user-images.githubusercontent.com/115678171/198816131-06a6ba95-c712-4855-8efe-264562e6b029.png)
+![Screenshot (62)](https://user-images.githubusercontent.com/115678171/198816134-bc4f5b6e-d80c-4fc2-82e7-46c908987be6.png)
 
-Screenshot (63) Screenshot (64)
-
-Hasil run Screenshot (61) Screenshot (62)
-Latihan 2
-
-    Anda masukan code latihan 2 anda lalu Run
-
+# Latihan 2 
+1. Anda masukan code latihan 2 anda lalu Run 
+```python
 a=input("masukkan nilai a:")
 b=input("masukkan nilai b:")
 print("variable a=",a)
@@ -88,13 +97,15 @@ print("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
 a=int(a)
 b=int(b)
 print("hasil penjumlahan {1}+{0}=%s".format(a,b) %(a+b))
-print("hasil pembagian {1}/{0}=%s".format(a,b) %(a/b))
+print("hasil pembagian {1}/{0}=%s".format(a,b) %(a/b))
+````
+![Screenshot (68)](https://user-images.githubusercontent.com/115678171/198816300-3b5d72ee-26a4-4bf7-8fce-5710999bea71.png)
+*Hasil Run*
+![Screenshot (69)](https://user-images.githubusercontent.com/115678171/198816307-c1739b5e-447c-44bd-a0a2-43b3ca770e17.png)
 
-Screenshot (68) Hasil Run Screenshot (69)
-Latihan 3
-
-    Anda masukan code seperti dibawah ini dan lalu Run
-
+# Latihan 3
+1. Anda masukan code seperti dibawah ini dan lalu Run
+```python
 string = ""
 
 x = int(input("Masukkan angka :"))
@@ -141,15 +152,17 @@ while bar <= x:
 
 	string = string + "\n\n"
 	bar = bar + 1
-print (string)
+print (string)
+````
+![Screenshot (71)](https://user-images.githubusercontent.com/115678171/198816679-fcdcebb6-58b9-4857-b171-2dd65952ed24.png)
+![Screenshot (72)](https://user-images.githubusercontent.com/115678171/198816705-c1fbd2e3-b549-493f-8ea8-1d831895a782.png)
 
-Screenshot (71) Screenshot (72)
+*Hasil Run*
+![Screenshot (70)](https://user-images.githubusercontent.com/115678171/198816756-e4e3c2c0-0582-4bf4-8bdb-2f5ffc892568.png)
 
-Hasil Run Screenshot (70)
-Menghitung Luas Dan Keliling Lingkaran
-
-    Masukan code di bawah ini lalu run
-
+# Menghitung Luas Dan Keliling Lingkaran
+1. Masukan code di bawah ini lalu run
+```python
 import math
 
 r = float(input("Masukan Jari-jari : "))
@@ -159,12 +172,13 @@ keliling = 2 * math.pi * r
 
 print("Luas Lingkaran \t\t= ", luas)
 print("Keliling Lingkaran\t= ", keliling)
+````
+![Screenshot (82)](https://user-images.githubusercontent.com/115678171/198817214-75aca326-f313-47fe-a27c-a7fe79f08332.png)
 
-Screenshot (82)
+*Hasil Run*
+![Screenshot (81)](https://user-images.githubusercontent.com/115678171/198817233-c6c11b97-3aaf-48ed-b7c0-e2ff8c813896.png)
 
-Hasil Run Screenshot (81)
-Flowchart Menghitung luas dan keliling lingkaran
+# Flowchart Menghitung luas dan keliling lingkaran
+![Flowchart menghitung luas dan keliling lingkaran](https://user-images.githubusercontent.com/115678171/198817259-154fec0b-f2b1-44e5-86c0-4c7ab1ad6142.png)
 
-Flowchart menghitung luas dan keliling lingkaran
-
-Terima Kasih
+*Terima Kasih*
